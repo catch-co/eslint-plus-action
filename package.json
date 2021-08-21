@@ -78,5 +78,8 @@
     "ts-jest": "^26.1.2",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
+  },
+  "engines": {
+    "node": "16.7.0"
   }
 }
