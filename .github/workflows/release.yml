@@ -35,10 +35,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v2
         with:
-          node-version: '12'
-          check-latest: true
+          node-version: '16.7.0'
       - name: Install dependencies
         run: yarn
       - name: Replace Template
