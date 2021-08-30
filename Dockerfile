@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16.7.0
 
 # LABEL com.github.actions.name="ESLint Action"
 # LABEL com.github.actions.description="Lint your Javascript projects with inline lint error annotations on pull requests."
